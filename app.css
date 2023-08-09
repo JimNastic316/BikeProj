@@ -3,16 +3,16 @@ body {
     /* pink background */
     background: #a59132;
     font-family: "Nunito", san-serif;
-}
+ }
 
 .blurb h2 {
-    color: #ea1c2c;
+    color: #fffbdb;
     font-weight: 100;
     font-size: 2.25rem;
 }
 
 .blurb p{
-    color: #f498b8;
+    color: #fffbdb;
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 2;
@@ -35,11 +35,13 @@ body {
 /* what happens when hover */
 #mainNavbar .nav-link:hover {
     /* background-color: aqua; */
-    color: #ea1c2c;
+    color: #30362f;
 }
 
 #mainNavbar .navbar-brand {
-    color: #ea1c2c;
+    color: #fffbdb;
+    font-size: 24px;
+
 }
 
 /* red slashes */
