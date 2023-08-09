@@ -1,7 +1,7 @@
 body {
     /* main background */
     /* pink background */
-    background: #217907;
+    background: #a59132;
     font-family: "Nunito", san-serif;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 #mainNavbar .nav-link {
-    color: white
+    color: #fffbdb;
 }
 
 /* what happens when hover */
@@ -44,7 +44,7 @@ body {
 
 /* red slashes */
 #headingGroup span {
-    color: #ea1c2c;
+    color: #625834;
 }
 
 #headingGroup h1 {
@@ -54,7 +54,7 @@ body {
 
 /* scrolling navbar effect */
 .navbar.scrolled {
-    background: rgb(222,192,222);
+    background: #625834;
     transition: background 500ms;
 }
 
