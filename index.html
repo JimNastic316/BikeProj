@@ -21,6 +21,12 @@
 
 <body>
 
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+  <!-- ****** NAVBAR START ****** -->
+  <!-- ****** NAVBAR START ****** -->
+  <!-- ****** NAVBAR START ****** -->
   <!-- ****** NAVBAR START ****** -->
 
   <!-- Most of this comes straight from the Bootsrap Docs -->
@@ -66,6 +72,16 @@
   </div> -->
 
   <!-- ****** NAVBAR END ****** -->
+  <!-- ****** NAVBAR END ****** -->
+  <!-- ****** NAVBAR END ****** -->
+  <!-- ****** NAVBAR END ****** -->
+  <!-- ****** NAVBAR END ****** -->
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+  <!-- ***************************************************************** -->
+
 
   <!-- ****** CONTENT AND IMAGE START ***** -->
 
@@ -83,7 +99,7 @@
           <!-- text-center center puts in the center from left to right -->
           <h1 class="">RD<span> / </span>MTB<span> / </span>GVL</h1>
           <h1 class="">RD<span> / </span>MTB<span> / </span>GVL</h1>
-          <h1 class="">RD<span> / </span>MTB<span> / </span>GVL</h1>          
+          <h1 class="">RD<span> / </span>MTB<span> / </span>GVL</h1>
         </div>
 
 
@@ -94,6 +110,10 @@
       </div>
     </div>
   </section>
+
+
+  <!-- ***************************************************************** -->
+  <!-- ****** ROADBIKE ****** -->
 
   <section class="container-fluid px-0">
     <div class="row align-items-center content">
@@ -112,11 +132,8 @@
             and will display inline -->
             <!-- ICONS NOT WORKING
             <img src="imgs/bicycleIcon.svg" alt="" class="fa-none fa-md-inline"> -->
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores ab saepe repudiandae
-              dicta
-              aliquid? Alias nesciunt dignissimos obcaecati est ut, aut architecto corrupti ratione nihil odio earum
-              neque
-              id!</p>
+            <p class="lead">Road bikes, as the name suggests, are meant for the road. A road bike will enable you to go
+              as far and as fast as you can peddle, and are meant to be ridden on paved surfaces.</p>
           </div>
         </div>
 
@@ -125,7 +142,8 @@
 
     <div class="row align-items-center content">
 
-
+      <!-- ***************************************************************** -->
+      <!-- ****** MOUNTAIN BIKE ****** -->
       <div class="col-md-6 text-center">
         <!-- justify-content-center is a Bootstrap utility -->
         <div class="class row justify-content-center">
@@ -136,11 +154,9 @@
             and will display inline -->
             <!-- ICONS NOT WORKING
             <img src="imgs/bicycleIcon.svg" alt="" class="d-none d-lg-inline"> -->
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores ab saepe repudiandae
-              dicta
-              aliquid? Alias nesciunt dignissimos obcaecati est ut, aut architecto corrupti ratione nihil odio earum
-              neque
-              id!</p>
+            <p class="lead">Mountain bikes are built for off-road adventure. Mountain bikes share many similarities with
+              other bicycles,
+              but include features for durability and performance in rough terrain.</p>
           </div>
         </div>
       </div>
@@ -149,6 +165,8 @@
         <img src="imgs/mountainBicycle-2.png" alt="" class="img-fluid">
       </div>
 
+      <!-- ***************************************************************** -->
+      <!-- ****** GRAVEL BIKE ****** -->
     </div>
     <div class="row align-items-center content">
       <div class="col-md-6 order-2 order-md-1">
@@ -165,11 +183,10 @@
             and will display inline -->
             <!-- ICONS NOT WORKING
             <img src="imgs/bicycleIcon.svg" alt="" class="d-none d-lg-inline"> -->
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolores ab saepe repudiandae
-              dicta
-              aliquid? Alias nesciunt dignissimos obcaecati est ut, aut architecto corrupti ratione nihil odio earum
-              neque
-              id!</p>
+            <p class="lead">A gravel bike is a mix of both road and mountain bikes. Many gravel bikes come with either
+              flat, or drop bars, Either way, gravel bikes can be ridden over many different
+              surfaces. The sporty geometry that gravel bikes have, will help you keep up with the pack on the road. The
+              wide tires, lower gearing will allow you to explore off road with confidence.</p>
           </div>
         </div>
 
@@ -195,16 +212,16 @@
 
   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
 
-<!-- find the navbar, anytime page scrolls, check if top of scroll is greater
+  <!-- find the navbar, anytime page scrolls, check if top of scroll is greater
 than navheight, toggle the class scroll -->
-    <script>
-      $(function () {
-        $(document).scroll(function(){
-          var $nav = $("#mainNavbar");
-          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-        })
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
       })
-    </script>
+    })
+  </script>
 
 </body>
 
